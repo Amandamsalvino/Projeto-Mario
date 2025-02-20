@@ -1,0 +1,322 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 40px;
+    padding: 20px;
+}
+
+
+
+header a {
+    font-size: 20px;
+    color: #C51111;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+header a:hover {
+
+    color: #f2acac;
+    transition: 0.5s ease-in-out;
+}
+
+header a:active {
+
+    color: #000000;    
+}
+
+.texto {
+    color: #ffff;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+
+.icone-mario {
+
+    width: 50px;
+}
+
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    width: 40%;
+    margin-top: 5%;
+
+}
+
+
+
+main button {
+    width: 220px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #C51111;
+    border: 2px solid #000000;
+    cursor: pointer;
+    color: #ffffff;
+
+}
+
+main button:hover {
+
+    opacity: 0.8;
+}
+
+main button:active {
+
+    opacity: 0.6;
+    transition: 0.2s;
+}
+.logo {
+
+    width: 400px;
+}
+
+section {
+
+    display: flex;
+    margin-right: 5%;
+
+}
+
+section img {
+
+    width: 400px;
+
+}
+
+.mascara{
+
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    min-width: 100vw;
+    min-height: 100vh;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    opacity: 0.8;
+}
+
+video {
+
+    min-width: 100vw;
+    min-height: 100vh;
+    opacity: .7;
+    z-index: -2;
+    position: fixed;
+    top: 0;
+    
+}
+
+.mascara-video {
+
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+    
+    
+}
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 350px;
+    gap: 25px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 30px 5px 10px 5px;
+    border: 5px solid #000000;
+    position: fixed;
+    top: 30%;
+    left: -290px;
+    transition: 0.9s linear;
+    
+
+}
+
+form input {
+
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    padding-left: 5px;
+    outline-color: #18D80F;
+    
+}
+
+form button {
+    width: 220px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #C51111;
+    border: 2px solid #000000;
+    cursor: pointer;
+    color: #ffffff;
+    
+}
+
+form button:hover {
+
+    opacity: 0.8;
+}
+
+form button:active {
+
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
+
+textarea {
+
+    width: 250px;
+    height: 140px;
+    border-radius: 5px;
+    padding: 5px;
+    outline-color: #18D80F;
+    border: 2px solid #000000;
+}
+
+
+.whats {
+
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+
+}
+
+.whats-img {
+
+    width: 300px;
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    
+    header {
+        display: flex
+    ;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+        width: 95vw;
+        text-align: center;
+    }
+
+    .icone-mario {
+        width: 45px;
+    }
+    
+
+    header a {
+        font-size: 15px;
+        color: #C51111;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    main {
+        display: flex
+    ;
+        flex-direction: column;
+        gap: 45px;
+        padding: 20px;
+        width: 40%;
+        margin-top: 15%;
+    }
+
+    .texto {
+        color: #ffff;
+        font-weight: 900;
+        font-size: 12px;
+    }
+
+
+    main button {
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+        margin-top: 50px;
+        text-transform: uppercase;
+        font-weight: bold;
+        background-color: #C51111;
+        border: 2px solid #000000;
+        cursor: pointer;
+        color: #ffffff;
+    }
+
+
+
+    section img {
+        width: 250px;
+    }
+
+
+    .whats {
+        display: flex
+    ;
+        justify-content: center;
+        position: absolute;
+        right: 0;
+        
+        width: 150px;
+        
+    }
+
+
+}
