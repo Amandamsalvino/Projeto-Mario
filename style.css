@@ -278,9 +278,9 @@ textarea {
         display: flex
     ;
         flex-direction: column;
-        gap: 45px;
+        gap: 10px;
         padding: 20px;
-        width: 40%;
+        width: 50%;
         
     }
 
@@ -295,7 +295,7 @@ textarea {
         width: 130px;
         height: 40px;
         border-radius: 5px;
-        margin-top: 50px;
+        margin-top: 70px;
         text-transform: uppercase;
         font-weight: bold;
         background-color: #C51111;
@@ -317,8 +317,8 @@ textarea {
         justify-content: center;
         position: absolute;
         right: 0;
-        margin-bottom: 78px;
-        width: 180px;
+        margin-bottom: 190px;
+        width: 220px;
         
     }
 
