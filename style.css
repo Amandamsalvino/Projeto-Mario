@@ -315,10 +315,10 @@ textarea {
         display: flex
     ;
         justify-content: center;
-        position: absolute;
+        position: fixed;
         right: 0;
-        margin-bottom: 190px;
-        width: 220px;
+        bottom: 50px;
+        width: 300px;
         
     }
 
