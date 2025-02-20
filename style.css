@@ -281,7 +281,7 @@ textarea {
         gap: 45px;
         padding: 20px;
         width: 40%;
-        margin-top: 15%;
+        
     }
 
     .texto {
@@ -317,7 +317,7 @@ textarea {
         justify-content: center;
         position: absolute;
         right: 0;
-        margin-bottom: 40px;
+        margin-bottom: 78px;
         width: 180px;
         
     }
