@@ -243,6 +243,10 @@ textarea {
 
 @media screen and (max-width: 768px) {
     
+    *{
+        overflow: hidden;
+    }
+
     header {
         display: flex
     ;
@@ -267,7 +271,7 @@ textarea {
     }
 
     .logo {
-        width: 200px;
+        width: 150px;
     }
 
     main {
@@ -288,7 +292,7 @@ textarea {
 
 
     main button {
-        width: 150px;
+        width: 130px;
         height: 40px;
         border-radius: 5px;
         margin-top: 50px;
@@ -313,8 +317,8 @@ textarea {
         justify-content: center;
         position: absolute;
         right: 0;
-        
-        width: 150px;
+        margin-bottom: 40px;
+        width: 180px;
         
     }
 
